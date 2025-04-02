@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Nosso Amor</title>
+</head>
+<body>
+    <div class="counter">
+        <span id="time-count"></span>
+    </div>
+    <div class="container">
+        <div class="photo-section" data-aos="fade-down-right" data-aos-duration="1500">
+            <h2>Dê um play, para ver um pouco da nossa história!</h2>
+            <button id="playButton"><i class="ph ph-play-circle"></i></button>
+        </div>
+        <div class="header" data-aos="fade-down-left" data-aos-duration="1500">
+            <h1>Nosso Amor em Momentos</h1>
+        </div>
+        <div class="photo-section" data-aos="fade-right" data-aos-duration="1500">
+            <img src="./imagens/primeira.jpg" alt="Descrição da foto 1">
+            <p>O nosso primeiro registro juntos, tomando aquele sorvete (que por sinal foi melhor do que imaginei). Ali começava o registro de uma grande história. 📍Local: KI AÇAI. 📅Data 19/01/25</p>
+        </div>
+        <div class="photo-section" data-aos="fade-left" data-aos-duration="1500">
+            <img src="./imagens/segunda.jpg" alt="Descrição da foto 2">
+            <p>Outro registro em uma loja de sorvete. Fazer o quê, né? Se ela é doidinha por açúcar. Hihihihi. 📍 Local: KI AÇAI. 📅 Data: Não achei :(</p>
+        </div>
+        <div class="photo-section" data-aos="flip-right" data-aos-duration="1500">
+            <div class="photo-group">
+                <img src="./imagens/terceira.jpg" alt="Descrição da foto 3">
+                <img src="./imagens/quarta.jpg" alt="Descrição da foto 4">
+                <img src="./imagens/quinta.jpg" alt="Descrição da foto 5">
+            </div>
+            <p>Pera, outro local de açúcar? Tá errado isso, só pode! KKKK. Um dia incrível e inexplicável com palavras. Comemos comidas gostosas, tiramos algumas fotinhas e aproveitamos o local em comemoração ao nosso primeiro mês juntos!! Local: 📍 Consulado Café. 📅 Data 08/03/25</p>
+        </div>
+        <div class="photo-section" data-aos="fade-up" data-aos-duration="1500">
+            <img src="./imagens/sexta_aliança.jpg" alt="Descrição da foto 6">
+            <p>Ainda no mesmo dia das fotos acima, vivemos um momento inesquecível: a troca das nossas alianças de namoro. Foi um passo marcante na nossa jornada, cheio de emoção, felicidade e aquele friozinho na barriga. Depois de um filminho e da troca de presentes, o dia se tornou mais do que especial foi simplesmente indescritível.
+                📍 Local: Dentro do carro, ao lado do North
+                📅 Data: 08/03/25</p>
+        </div>
+        <div class="photo-section" data-aos="fade-up-right" data-aos-duration="1500">
+            <img src="./imagens/setima.jpg" alt="Descrição da foto 7">
+            <p>TÁ AI UM ROLÊ QUE NUNCA PENSEI QUE IRIA SAIR! Uma corridinha de 2400m (só para constar, eu parei nos 2300 metros porque já estava morrendo), mas não disse nada, vai que, né? Ia ser zoado pela eternidade. Hihihihi. 📍 Local: Calçadão do Icaraí. 📅 Data 18/03/25</p>
+        </div>
+        <div class="photo-section" data-aos="fade-up-left" data-aos-duration="1500">
+            <img src="./imagens/oitava.jpg" alt="Descrição da foto 8">
+            <p>Esse dia será inesquecível: o dia do nosso rolê cultural. 1º -> Eletricidade, 2º -> Café, 3º -> Pinacoteca, 4º -> Alguma coisa tropical, 5º -> Trem. Um dia mais do que especial, em que praticamente passamos o dia juntos. Foi incrível. Onde vimos muitas obras de arte, julgamos horrores e rimos muito. 📍 LOCAL: Museu da Indústria e Pinacoteca. 📅 Data: 30/03/25</p>
+        </div>
+        <div class="photo-section" data-aos="flip-left" data-aos-duration="1500">
+            <h2>Considerações Finais:</h2>
+            <p class="texto-consideracao">Achou que era o final? Aqui será onde o final se torna o começo. Este será o nosso álbum. Irei eternizar todos os nossos momentos aqui, para que nunca se percam com o tempo, e para que esses momentos incríveis possam sempre ser relembrados. Agradeço todos os dias por ter encontrado uma pessoa tão incrível quanto você. Que possamos cada vez mais preencher esse álbum. Eu te amo muito. Beijos.</p>
+        </div>
+        <div class="music">
+            <div class="homenagem">
+                <p class="nomeCasal" >Arthur & Anayrda </p>
+                <button id="carta">💌</button>
+                <div class="box-alerta">Clique aqui!</div>
+            </div>
+            <audio id="audio" controls >
+                <source src="music/Ed Sheeran - Shape of You (Official Music Video).mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</body>
+</html>
